@@ -1,34 +1,41 @@
-body {
-    font-family: 'Delius', cursive;
-    background: linear-gradient( #ffeeee 0%, #ddefbb 100%);
 
-}
-
-#m {
-    height:250px;
-    width:450px;
-}
-#oi {
-    width:800px;
-    height: 600px;
-}
-span
-{
-    width:400px;
-    height: 200px;
-    background-color: #b8860b;
-    border-radius: 20px;
-}
-label
-{
-    width:150px;
-    height: 50px;
-    border-radius: 20px;
-}
-h5 {
-    background-color: #b8860b;
-    border-radius: 20px;
-}
-hr {
-    color:black;
-}
+  .result
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+    color:linen;
+  }
+ body {
+   background:url("ok.jpeg");
+   background-repeat: no-repeat;
+   background-size:cover;
+   color:black;
+ }
+ .head {
+   width:100%;
+   margin:0;
+   font-family: 'Zen Tokyo Zoo', cursive;
+   font-size:30px;
+   color:black;
+ }
+ .footer {
+   position:fixed;
+   bottom:0;
+   background:linear-gradient(limegreen 0%, green 100%);
+   width:100%;
+   text-align: center;
+ }
+ .cssclass {
+  float:none;
+  color:black;
+  padding:10px;
+  border: 5px solid limegreen;
+  background-color: limegreen;
+  border-radius: 35px;
+ }
+ canvas {
+   border-color:mediumpurple;
+   border-width: 5px;
+   border-style: dashed;
+   margin-top: 150px;
+ }
